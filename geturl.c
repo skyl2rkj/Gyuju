@@ -36,7 +36,7 @@ int main(){
        
         p += match[0].rm_eo;
     }
-    munmap(data, size);
+    
     regfree(&reg);
     return 0;
 
